@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Eco Services · Login page</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+    crossorigin="anonymous"
+  >
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid me-2">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img
+          src="./images/logo2.jpg"
+          width="50"
+          height="50"
+          alt="Eco Services logo"
+          class="me-2 rounded-circle"
+        >
+        Services
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContent"
+        aria-controls="navbarContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div 
+        class="collapse navbar-collapse" 
+        id="navbarContent"
+      >
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Dashboards</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+        <div class="d-flex">
+          <button class="btn btn-outline-light me-2 rounded-pill">Login</button>
+          <button class="btn btn-light rounded-pill">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Centered Login Form -->
+  <main class="container flex-grow-1 d-flex align-items-center justify-content-center">
+    <form class="w-100" style="max-width: 380px;">
+      <h1 class="h3 mb-4 text-center">Log In!</h1>
+
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="name@example.com"
+          required
+        >
+        <label for="email">Email address</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          placeholder="Password"
+          required
+        >
+        <label for="password">Password</label>
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <a href="#" class="text-success">Forgot password?</a>
+      </div>
+
+      <button
+        class="btn btn-success w-100 py-2 rounded-pill"
+        type="submit"
+      >
+        Log In
+        <img src="./images/logo2.JPG" 
+          alt="logo" 
+          class="img-fluid rounded-circle"
+          width="30"
+          height="30">
+      </button>
+      <p class="pt-2">Don't have account? 
+        <a href="#" class="text-success">sign up here</a>
+      </p>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white mt-auto py-5">
+        <div class="container-fluid px-4">
+            <!-- Flex container: base column on xs, row from md up -->
+            <div class="d-flex  align-items-start">
+            
+            <!-- Left side: stays at start -->
+            <div class="mb-4 mb-md-0">
+                <h5><img src="./images/logo2.JPG" alt="logo" 
+                  class="img-fluid rounded-circle" 
+                  height="50" 
+                  width="50"> 
+                  Services
+                </h5>
+                <p class="mb-0">
+                Eco is here to change<br>
+                the community.
+                </p>
+            </div>
+            
+            <!-- Right side: pushed to the right via ms-auto -->
+            <div class="ms-auto d-flex flex-column flex-sm-row gap-5" >
+                
+                <!-- Company links -->
+                <div>
+                <h6>Company</h6>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="#" class="text-white">About Us</a></li>
+                    <li><a href="#" class="text-white">Careers</a></li>
+                    <li><a href="#" class="text-white">Blog</a></li>
+                </ul>
+                </div>
+                
+                <!-- Contact info -->
+                <div>
+                <h6>Contact</h6>
+                <address class="mb-0">
+                    Bamenda Mile 6 Nkwen<br>
+                    Eco City, EC 45678<br>
+                    <a href="tel:+1234567890" class="text-white">+(237) 6345-67899</a><br>
+                    <a href="mailto:info@ecoservices.com" class="text-white">info@ecoservices.com</a>
+                </address>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
