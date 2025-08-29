@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Eco Services · Client Dashboard</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+    crossorigin="anonymous"
+  >
+  <style>
+    nav{
+      background-color: #198754;
+    } 
+    .sidebar{
+      border: 1px solid black;
+      width: fit-content;
+    }
+    .btn{
+      background-color: #198754;
+    
+    }
+  </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid me-2">
+      <a class="navbar-brand d-flex align-items-center text-light" href="#" >
+        <img
+          src="eco.jpg"
+          width="50"
+          height="50"
+          alt="Eco Services logo"
+          class="me-2 rounded-circle"
+        >
+        Services  
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarContent"
+        aria-controls="navbarContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div 
+        class="collapse navbar-collapse" 
+        id="navbarContent"
+      >
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-white">
+          <li class="nav-item"><a class="nav-link " href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Dashboards</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">Contact Us</a></li>
+        </ul>
+        <div class="d-flex">
+          <button class="btn btn-outline-light me-2 rounded-pill">Login</button>
+          <button class="bt btn-light rounded-pill">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<div class="wrapper d-flex">
+  <!-- sidebar -->
+  <section class="sidebar" >
+    <div class="d-flex flex-column flex-shrink-0 px-2 pt-3 text-bg-white" style="width:200px;"> 
+     <a href="/" class="d-flex align-items-center mb-2 mb-md-0 me-md-0 text-black text-decoration-none"> 
+    <svg class="bi pe-none me-0" width="10" height="32" aria-hidden="true">
+     <use xlink:href="#bootstrap"></use></svg> <span class="fs-4"> 
+      <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="130" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
+     <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>  
+
+
+     <p class="Provider mt-2 px-0 py-3 md-4">Client Name</p></span> </a> 
+     <ul class="nav nav-pills flex-column mb-auto align-items-center">
+     <li class="nav-item"> <a href="#" class="nav-link-fixed text-black text-decoration-none" aria-current="page"> 
+     <svg class="bi pe-none me-0 pt-3" width="16" height="16" aria-hidden="true"><use xlink:href="#home"></use></svg> 
+    My Bookings
+   </a><li> <a href="#" class="nav-link text-black"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#speedometer2"></use></svg>
+Over View
+   </a> </li> <li> <a href="#" class="nav-link text-black"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#table"></use></svg>
+History
+   </a> </li> <li> <a href="#" class="nav-link text-black"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#grid"></use></svg>
+   Help Center
+   
+<div class="btn2 py-3 pt-5 text-center ">
+  <button type="button" class="btn px-3 py-0 text-white text-center mb-4 rounded-pill ">Logout</button>
+</div>
+
+
+<!-- mainbar -->
+</section>
+<div class="content">
+<div class="input-group mb-3 m-4 px-5">
+  <input type="text" class="form-control" placeholder="search..." aria-label="Recipient’s username" aria-describedby="button-addon2">
+  <button class="btn btn-outline-success bg-success m-0 px-3" type="button" id="button-addon2 text-light">search</button>
+</div>
+<div class=" bd-example m-4 border-0 d-flex flex-column gap-5 mt-4 pt-5 px-5"> 
+    <select class="form-select form-select-lg mb-3 text-success" aria-label="Large select example">
+  <option selected="">Ongoing Booking Card</option>
+  <option value="1 ">Plumbing Services</osssption>
+  <option value="2">Electrical Services</option>
+  <option value="3">Painting Services</option>
+    <option value="2">Mechanical Services</option>
+  <option value="3">Cleaning Services</option>
+</select>
+
+<select class="form-select form-select-lg mb-3 text-success" aria-label="Large select example">
+  <option selected="" ><em>RecentServices</em></option>
+  <option value="1" >Painting</option>
+  <option value="2">Delivery</option>
+  <option value="3">Cleaning</option>
+  
+</select> 
+<button type="button" class="btn rounded-pill px-3 py-2 text-light" >Book a Service</button>
+</div>
+</div>
+
+</div>
+
+  <!-- Centered Login Form
+  </main>
+
+  <-- Footer -->
+  <footer class="bg-success text-white mt-auto py-5">
+        <div class="container-fluid px-4">
+            <!-- Flex container: base column on xs, row from md up -->
+            <div class="d-flex  align-items-start">
+            
+            <!-- Left side: stays at start -->
+            <div class="mb-4 mb-md-0">
+                <h5><img src="eco.jpg" alt="logo" 
+                  class="img-fluid rounded-circle" 
+                  height="50" 
+                  width="50"> 
+                  Services
+                </h5>
+                <p class="mb-0">
+                Eco is here to change<br>
+                the community.
+                </p>
+            </div>
+            
+            <!-- Right side: pushed to the right via ms-auto -->
+            <div class="ms-auto d-flex flex-column flex-sm-row gap-5" >
+                
+                <!-- Company links -->
+                <div>
+                <h6>Company</h6>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="#" class="text-white">About Us</a></li>
+                    <li><a href="#" class="text-white">Careers</a></li>
+                    <li><a href="#" class="text-white">Blog</a></li>
+                </ul>
+                </div>
+                
+                <!-- Contact info -->
+                <div>
+                <h6>Contact</h6>
+                <address class="mb-0">
+                    Bamenda Mile 6 Nkwen<br>
+                    Eco City, EC 45678<br>
+                    <a href="tel:+1234567890" class="text-white">+(237) 6345-67899</a><br>
+                    <a href="mailto:info@ecoservices.com" class="text-white">info@ecoservices.com</a>
+                </address>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
